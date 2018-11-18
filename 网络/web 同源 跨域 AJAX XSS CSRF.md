@@ -1,4 +1,4 @@
-# web 同源 跨域 AJAX XSS CSRF
+# web 同源 跨域、AJAX、XSS CSRF
 
 ## 1. 浏览器 同源策略---Same-origin policy
 ### 1.1. Definition of an origin
@@ -12,6 +12,7 @@
 ### 1.3. 为什么需要跨域
 ### 1.4. 跨域的解决方案
 
+## AJAX
 
 
 ## XSS & CSRF
