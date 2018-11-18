@@ -12,15 +12,19 @@
 ### 1.3. 为什么需要跨域
 ### 1.4. 跨域的解决方案
 
-## AJAX
+## 2. AJAX
 
 
-## XSS & CSRF
+## 3. XSS & CSRF
 
-### 1.1. 名字的起源
+### 3.1. 名字的起源
 > Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users. 
 > - wikipedia
 
+Cross-site scripting (XSS) 正常来说简写应该是 CSS ，但是 CSS 这个简称已经被( cascading style sheet )占用，所以简称就变成了 XSS 。
 
 [用大白话谈谈XSS与CSRF](https://segmentfault.com/a/1190000007059639)
 [如何防范XSS和CSRF？](https://segmentfault.com/a/1190000007766732)
+
+
+## 单点登录(SSO)
