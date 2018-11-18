@@ -13,3 +13,20 @@
 
 ## Python threading
 https://docs.python.org/3/library/threading.html#module-threading
+
+- lock
+- RLcok
+[举例讲解 Python 中的死锁、可重入锁和互斥锁](http://python.jobbole.com/82723/)
+- Condition Object
+也是锁，只是多了 notify 和 wait 功能
+[python多线程--Condition(条件对象)](https://www.cnblogs.com/thunderLL/archive/2018/10/23/9838984.html)
+- semaphore
+
+
+- Event
+- Barrier
+
+- threading.Thread
+- Timer
+
+## Python multi-process

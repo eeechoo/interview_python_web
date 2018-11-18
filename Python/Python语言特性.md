@@ -173,3 +173,51 @@ funcs[0]()
 
     [i for i in range(10)]
 
+
+## 7. 作用域
+Python 遵循作用域  
+Local -> Enclosure -> Global -> Builtin  
+简称 LEGB
+
+下面是一些有趣的例子：
+
+```python
+def foo():
+    print(i)
+    i = 1
+foo()
+# UnboundLocalError: local variable 'i' referenced before assignment
+&
+
+def bar():
+    i
+    print(i)
+bar()
+# 错误在第二行
+# NameError: name 'i' is not defined
+# i 没有被定义
+&
+
+i = 1
+def bar():
+    i
+    print(i)
+bar()
+
+&
+i = 1
+def bar():
+    print(i)
+    i = 2
+bar()
+# UnboundLocalError: local variable 'i' referenced before assignment
+
+&
+i = 1
+def bar():
+    global i
+    # nonlocal 用于闭包
+    print(i)
+    i = 2
+bar()
+```
