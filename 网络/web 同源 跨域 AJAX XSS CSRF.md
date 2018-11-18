@@ -15,8 +15,9 @@
 ## XSS & CSRF
 
 ### 1.1. 名字的起源
-> Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users. 
-> - wikipedia
+> Cross-site scripting (XSS) is a type of computer security vulnerability typically found in web applications. XSS enables attackers to inject client-side scripts into web pages viewed by other users.  
+---wikipedia  
+
 
 
 [用大白话谈谈XSS与CSRF](https://segmentfault.com/a/1190000007059639)
