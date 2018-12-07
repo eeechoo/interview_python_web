@@ -105,8 +105,11 @@ https://www.cnblogs.com/YingxuanZHANG/p/8805836.html
 
 参见：
 https://docs.python.org/3/library/functions.html中
+
 builtin functions 
+
 vars()
+
 dir()
 
 
