@@ -103,6 +103,14 @@ __dict__是dir()的子集，dir()包含__dict__中的属性。
 详细参见：
 https://www.cnblogs.com/YingxuanZHANG/p/8805836.html
 
+参见：
+https://docs.python.org/3/library/functions.html中
+builtin functions 
+vars()
+dir()
+
+
+
 
 ## 4. Python垃圾回收机制
 
