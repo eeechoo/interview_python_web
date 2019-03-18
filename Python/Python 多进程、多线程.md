@@ -7,6 +7,12 @@
 下图取自 The Linux Programming Interface---chapter 43
 ![Inter-Process Communication, IPC](./__images/IPC.PNG)
 
+
+[mutex 与 semaphore 的区别](https://blog.csdn.net/panzhenjie/article/details/10083035)
+
+
+
+
 ## Python IPC
 
 [Exchanging objects between processes](https://docs.python.org/3/library/multiprocessing.html#exchanging-objects-between-processes)
